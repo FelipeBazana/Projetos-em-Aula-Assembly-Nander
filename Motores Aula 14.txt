@@ -1,0 +1,42 @@
+FRENTE		= u = 001 = 1 (1 0 1 0)
+ATRAS		= d = 010 = 2 (0 1 0 1)
+DIREITA		= r = 011 = 3 (1 0 0 1)
+ESQUERDA	= l = 101 = 4 (0 1 1 0)
+PARADO		= s = 000 = 0 (0 0 0 0)
+
+
+Entrada de dado
+
+249
+
+
+Enable e disable
+
+250 = 1
+251 = 0
+ 
+pinos 6 e 9
+
+252
+253
+
+pinos 3 e 5
+
+254
+255
+
+
+se entrada = 0
+(0 0 0 0)		=> no programa em 0 - 14
+se entrada - 1 = 0
+(1 0 1 0)		=> no programa em 32 - 45
+se entrada - 2 = 0
+(0 1 0 1)		=> no programa em 46 - 59
+se entrada - 3 = 0
+(1 0 0 1)		=> no programa em 60 - 73
+se entrada - 4 = 0
+(0 1 1 0) 		=> no programa em 74 - 59
+
+
+
+

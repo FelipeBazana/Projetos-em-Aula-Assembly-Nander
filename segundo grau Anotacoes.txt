@@ -1,0 +1,6 @@
+a x 2 + b x + c
+
+
+a x 2 => 138
+b x => 139
+resultado => 140
